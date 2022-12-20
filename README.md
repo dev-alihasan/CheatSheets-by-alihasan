@@ -30,43 +30,39 @@ tag | element
 **hr/** |Creates a sectional break into HTML.
 
 <h1>•	Links Formatting </h1>
-ahref="url"/a |Used to link to external or internal pages of a website
 
+<a href="url"> </a> 
+Used to link to external or internal pages of a website.
 
-<a href="mailto:email@example.com"></a>
-Used to link to an email address
-<a href="name"></a>
-Used to link to a document element
+< a href="mailto:email@example.com"> </a> 
+Used to link to an email address.
 
-<a href="#name"></a>
-Used to link to specific div element
+a href="name"/a
+Used to link to a document element.
 
-<a href="tel://####-####-##"></a>
-Used to display phone numbers and make them clickable
+a href="#name"/a
+Used to link to specific div element.
+
+a href="tel://####-####-##"/a
+Used to display phone numbers and make them clickable.
 
  
-•	Text Formatting
-<p>
-<strong></strong> and <b></b>
-Makes text contained in the tag as bold.
-<em></em> and <i></i>
-Alternative way to make the text contained in the tag as italic.
-<del></del>
-Creates a strike through the text element.
-<pre></pre>
-Preformatted monospace text block with some spacing intact.
-<blockquote></blockquote>
-Contains long paragraphs of quotations often cited.
-<abbr></abbr>
-Contains abbreviations while also making the full form available.
-<address></address>
-Used to display contact information.
-<code></code>
-Used to display inline code snippets.
-<q></q>
-Defines a short inline quotation.
-<sub></sub>
-Defines subscripted text.
+<h1> •	Text Formatting </h1>
+
+tag | element
+--- | ---
+**strong/strong and b/b** |Makes text contained in the tag as bold.
+**em/em and i/i** |Alternative way to make the text contained in the tag as italic.
+**del/del** |Creates a strike through the text element.
+**pre/pre** |Preformatted monospace text block with some spacing intact.
+**blockquote/blockquote** |Contains long paragraphs of quotations often cited.
+**abbr/abbr** |Contains abbreviations while also making the full form available.
+**address/address** |Used to display contact information.
+**code/code** |Used to display inline code snippets.
+**q/q** |Defines a short inline quotation.
+**sub/sub** |Defines subscripted text.
+
+
 <sup></sup>
 Defines superscripted text.
 <small></small>
